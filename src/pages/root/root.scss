@@ -1,0 +1,26 @@
+page-root {
+    .toolbar-background, .tabs .tabbar{
+        background: royalblue;
+        color: white;
+    }
+
+    .toolbar-title, .tabs .tab-button {
+        color: white;
+        font-size: large;
+    }
+
+    .tabs-ios[tabsLayout=icon-hide] .tab-button .tab-button-text, .tabs-ios .tab-button.has-title-only .tab-button-text {
+        font-size: small;
+        // font-weight: bold;
+    }
+
+    .tabs-ios .tab-button:hover:not(.disable-hover), .tabs-ios .tab-button[aria-selected=true] {
+        font-weight: bold;
+        color: white;
+    }
+    
+    .bar-button-default {
+        color: white;
+    }
+
+}
