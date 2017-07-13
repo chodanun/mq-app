@@ -1,39 +1,38 @@
 page-home {
-    .content {
-        text-align: center;
-        padding: inherit;
-        background: #f1f1f1;
-        margin: auto;
-    }
-    .content > .qrcode {
-        padding: inherit;
-        background-color: white;
-        width: 270px;
-        height: 270px;
-        border-radius: 50%;
-        display: inline-block;
-    }
+    // .content {
+    //     text-align: center;
+    //     padding: inherit;
+    //     margin: auto;
+    // }
+    // .content > .qrcode {
+    //     padding: inherit;
+    //     background-color: white;
+    //     width: 270px;
+    //     height: 270px;
+    //     border-radius: 50%;
+    //     display: inline-block;
+    // }
 
-    .content > .qrcode img {
-        position: relative;
-        top: 30px;
-    }
+    // .content > .qrcode img {
+    //     position: relative;
+    //     top: 30px;
+    // }
 
-    .content > .msg {
-        padding: inherit;
-        font-weight: bold;
-        color: gray;
-        font-size: larger;
-    }
+    // .content > .msg {
+    //     padding: inherit;
+    //     font-weight: bold;
+    //     color: gray;
+    //     font-size: larger;
+    // }
     
-    .content > .msg > span {
-        font-size: larger;
-        color: #635c5c;
-    }
+    // .content > .msg > span {
+    //     font-size: larger;
+    //     color: #635c5c;
+    // }
 
-    .content > button {
-        font-weight: bold;
-    }
+    // .content > button {
+    //     font-weight: bold;
+    // }
 
     .request > p {
         padding: inherit;

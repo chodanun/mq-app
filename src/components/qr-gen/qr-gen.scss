@@ -1,0 +1,35 @@
+qr-gen {
+    .content {
+        text-align: center;
+        margin: 10px;
+    }
+    .content > .qrcode {
+        margin: inherit;
+        background-color: white;
+        width: 270px;
+        height: 270px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .content > .qrcode img {
+        position: relative;
+        top: 45px;
+    }
+
+    .content > .msg {
+        margin: inherit;
+        font-weight: bold;
+        color: gray;
+        font-size: larger;
+    }
+    
+    .content > .msg > span {
+        font-size: larger;
+        color: #635c5c;
+    }
+
+    .content > button {
+        font-weight: bold;
+    }
+}

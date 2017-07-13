@@ -19,6 +19,7 @@ import { QRCodeModule } from 'angular2-qrcode'
 // Firebase
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabase } from 'angularfire2/database'
+import { QrGenComponent } from '../components/qr-gen/qr-gen';
 
 const firebaseConfig: any = {
     apiKey: "AIzaSyCHs5JeIxYSc1GWnaZyoqoG1uvckyF5jT4",
@@ -36,6 +37,7 @@ const firebaseConfig: any = {
     SettingPage,
     RootPage,
     MagazinePage,
+    QrGenComponent,
     
   ],
   imports: [
